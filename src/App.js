@@ -22,9 +22,9 @@ class LambdaDemo extends Component {
             .then((json) => {
                 this.setState({
                     items: json,
-                  console.log(items);
                   DataisLoaded: true
                 });
+          console.log('1');
             })
     }
   render() {
