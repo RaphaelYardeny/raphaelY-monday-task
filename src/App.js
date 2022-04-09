@@ -24,7 +24,7 @@ class LambdaDemo extends Component {
                     items: json,
                   DataisLoaded: true
                 });
-          console.log('1');
+          console.log({json});
             })
     }
   render() {
