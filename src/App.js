@@ -28,9 +28,6 @@ class LambdaDemo extends Component {
     }
   render() {
     const { loading, msg } = this.state
-        const { DataisLoaded, items } = this.state
-
-
     return (
       <p>
         <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
