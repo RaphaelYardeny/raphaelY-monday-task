@@ -22,7 +22,8 @@ class LambdaDemo extends Component {
             .then((json) => {
                 this.setState({
                     items: json,
-                    DataisLoaded: true
+                  console.log('queryStringParameters', items)  
+                  DataisLoaded: true
                 });
             })
     }
