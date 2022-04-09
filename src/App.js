@@ -17,7 +17,7 @@ class LambdaDemo extends Component {
       .then(json => this.setState({ loading: false, msg: json.msg }))
   }
     componentDidMount() {
-        fetch("https://jsonplaceholder.typicode.com/users")
+        fetch("https://opentdb.com/api.php?amount=100")
             .then((res) => res.json())
             .then((json) => {
                 this.setState({
